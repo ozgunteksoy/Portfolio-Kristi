@@ -1,0 +1,142 @@
+@media (max-width: 900px) {
+  header {
+    padding: 10px;
+  }
+  .header-container .kristiDigital .img-kristi {
+    position: relative;
+    left: -20px;
+    top: -20px;
+    width: 150px;
+    padding: 0px;
+    margin: 0;
+  }
+  .home .knowledge {
+    position: relative;
+    width: 10%;
+    padding: 50px 20px;
+  }
+
+  .home .container .knowledge .left-side .left-text .name {
+    font-size: 20px;
+  }
+  .home .container .knowledge .left-side .left-text .job {
+    font-size: 40px;
+    padding-left: 0px;
+  }
+  .home .container .knowledge .right-side {
+    width: 1000%;
+    position: relative;
+    justify-content: flex-start;
+    top: 350px;
+    left: -100px;
+  }
+  .home .container .knowledge .right-side .elements {
+    position: absolute;
+    left: -80px;
+    top: -10px;
+    z-index: 100;
+  }
+  .services {
+    padding: 0 20px;
+  }
+  .center-text {
+    text-align: center;
+  }
+  .services .three-column {
+    display: grid;
+    grid-template-columns: 0.5fr;
+    width: 100%;
+  }
+  .dribbble h2 {
+    font-size: 20px;
+    line-height: 15px;
+  }
+  .dribbble .dribbble-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .about {
+    grid-template-columns: 1fr;
+  }
+  .about .about-text {
+    padding: 45px 20px 0px 20px;
+  }
+  .header-container .menu {
+    height: calc(100vh - 9rem);
+    position: absolute;
+    top: 55%;
+    left: 0;
+    right: 0;
+    width: 30rem;
+    background-color: #f9f5f2;
+    overflow: hidden;
+    text-decoration: none;
+    right: -100%;
+  }
+  .menu.active {
+    height: 250px;
+  }
+  .menu .nav-link {
+    font-size: 22px;
+    margin: 15px 5px;
+  }
+  .menu .nav-link a {
+    border-bottom: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-container #menu-btn {
+    display: inline-block;
+    cursor: pointer;
+  }
+  .header-container .menu {
+    position: absolute;
+    top: 95%;
+    background-color: #ccc;
+    width: 30rem;
+    right: -100%;
+  }
+  .header-container .menu.active {
+    right: 3rem;
+  }
+  .header-container .menu a {
+    color: black;
+    display: block;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+  }
+
+  .contact {
+    grid-template-columns: 1fr;
+    padding: 50px 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  .home .container .knowledge .left-side {
+    width: 100%;
+    margin-left: -20px;
+    padding-bottom: 520px;
+  }
+  .header-container #menu-btn {
+    display: inline-block;
+  }
+  .knowledge .right-side .elements {
+    max-width: 340px;
+    top: -40px;
+    right: 38px;
+  }
+  .knowledge .right-side .kristi {
+    max-width: 320px;
+  }
+
+  .services .three-column {
+    grid-template-columns: 1fr;
+  }
+  .dribbble .dribbble-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
